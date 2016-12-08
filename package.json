@@ -1,0 +1,27 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "Solution for problems from leetcode",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nak1b/leetcode.git"
+  },
+  "keywords": [
+    "leetcode"
+  ],
+  "author": "Nakib Momin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nak1b/leetcode/issues"
+  },
+  "homepage": "https://github.com/nak1b/leetcode#readme",
+  "devDependencies": {
+    "lodash": "^4.17.2",
+    "minimist": "^1.2.0",
+    "mocha": "^3.2.0"
+  }
+}
