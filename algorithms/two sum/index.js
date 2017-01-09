@@ -39,10 +39,10 @@ function twoSum(nums, target) {
 		const lookup = target - num;
 
 		if (hashMap[lookup] !== undefined) {
-			return [num, lookup];
+			return [index, hashMap[lookup]].sort();
 		}
 	
-		hashMap[num] = num;
+		hashMap[num] = index;
 		index ++;
 	}
 	return []
