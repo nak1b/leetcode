@@ -30,19 +30,19 @@ function twoSum2(nums, target) {
 }
 
 function twoSum(nums, target) {
-	let len = nums.length;
-	let hashMap = [];
-	var index = 0;
+	const len = nums.length;
+	const hashMap = {};
+	let index = 0;
+
 	while (index < len) {
-		var lookup = target - nums[index];
-		let num = nums[index];
+		const num = nums[index];
+		const lookup = target - num;
 
 		if (hashMap[lookup] !== undefined) {
 			return [num, lookup];
 		}
 	
 		hashMap[num] = num;
-
 		index ++;
 	}
 	return []
